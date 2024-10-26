@@ -1603,6 +1603,7 @@ public class VolumeDialogImpl implements VolumeDialog, Dumpable,
                         : "";
                 mMediaOutputDialogManager.createAndShow(packageName, true, mDialogView, null, null);
                 dismissH(DISMISS_REASON_SETTINGS_CLICKED);
+                com.android.internal.util.android.VibrationUtils.triggerVibration(mContext, 4);
             });
         }
 
