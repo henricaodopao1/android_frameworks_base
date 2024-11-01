@@ -35,7 +35,8 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
             app:titleCollapseMode="scale"
             app:toolbarId="@id/action_bar"
-            style="@style/CollapsingToolbarLayoutStyle.SettingsLib">
+            style="@style/CollapsingToolbarLayoutStyle.SettingsLib"
+            app:expandedTitleGravity="bottom|center_horizontal">
 
             <Toolbar
                 android:id="@+id/action_bar"
