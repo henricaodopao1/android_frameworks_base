@@ -1083,7 +1083,7 @@ constructor(
         return when {
             state == Tile.STATE_UNAVAILABLE || disabledByPolicy -> colorUnavailable
             state == Tile.STATE_ACTIVE -> 
-                if (qsPanelStyle == 2 || qsPanelStyle == 10) 
+                if (qsPanelStyle == 2 || qsPanelStyle == 9) 
                     colorActiveAlpha 
                 else if (qsPanelStyle == 3) 
                     colorActiveRandom 
@@ -1104,7 +1104,7 @@ constructor(
         return when {
             state == Tile.STATE_UNAVAILABLE || disabledByPolicy -> colorLabelUnavailable
             state == Tile.STATE_ACTIVE -> 
-                if (qsPanelStyle == 1 || qsPanelStyle == 2 || qsPanelStyle == 10)
+                if (qsPanelStyle == 1 || qsPanelStyle == 2 || qsPanelStyle == 9)
                     colorActive
                 else if (qsPanelStyle == 3) 
                     colorLabelActiveRandom
@@ -1123,7 +1123,7 @@ constructor(
         return when {
             state == Tile.STATE_UNAVAILABLE || disabledByPolicy -> colorSecondaryLabelUnavailable
             state == Tile.STATE_ACTIVE -> 
-                if(qsPanelStyle == 1 || qsPanelStyle == 2 || qsPanelStyle == 10) 
+                if(qsPanelStyle == 1 || qsPanelStyle == 2 || qsPanelStyle == 9) 
                     colorActive
                 else if(qsPanelStyle == 3) 
                     colorSecondaryLabelActiveRandom
