@@ -150,4 +150,6 @@
     <string name="accessibility_assistant_button">AI Assistant</string>
     <!-- Text while recognizing face -->
     <string name="face_unlock_recognizing">يتم التعرف على الوجه...</string>
+    <!-- 5G toggle in Internet Dialog -->
+    <string name="enable_fiveg">Enable 5G</string>
 </resources>

@@ -146,4 +146,6 @@
     <string name="accessibility_assistant_button">Βοηθός AI</string>
     <!-- Text while recognizing face -->
     <string name="face_unlock_recognizing">Αναγνώριση προσώπου...</string>
+    <!-- 5G toggle in Internet Dialog -->
+    <string name="enable_fiveg">Ενεργοποίηση 5G</string>
 </resources>

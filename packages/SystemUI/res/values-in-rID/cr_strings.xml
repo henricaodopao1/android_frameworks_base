@@ -145,4 +145,6 @@
     <string name="accessibility_assistant_button">Asisten AI</string>
     <!-- Text while recognizing face -->
     <string name="face_unlock_recognizing">Mengenali wajah...</string>
+    <!-- 5G toggle in Internet Dialog -->
+    <string name="enable_fiveg">Aktifkan 5G</string>
 </resources>

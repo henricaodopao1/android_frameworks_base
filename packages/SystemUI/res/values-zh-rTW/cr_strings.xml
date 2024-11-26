@@ -145,4 +145,6 @@
     <string name="accessibility_assistant_button">AI 助理</string>
     <!-- Text while recognizing face -->
     <string name="face_unlock_recognizing">臉部辨識中...</string>
+    <!-- 5G toggle in Internet Dialog -->
+    <string name="enable_fiveg">啟用 5G</string>
 </resources>

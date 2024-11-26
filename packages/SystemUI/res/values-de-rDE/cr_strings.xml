@@ -146,4 +146,6 @@
     <string name="accessibility_assistant_button">KI-Assistent</string>
     <!-- Text while recognizing face -->
     <string name="face_unlock_recognizing">Gesichtserkennung …</string>
+    <!-- 5G toggle in Internet Dialog -->
+    <string name="enable_fiveg">5G aktivieren</string>
 </resources>

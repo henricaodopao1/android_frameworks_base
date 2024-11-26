@@ -146,4 +146,6 @@
     <string name="accessibility_assistant_button">دستیار هوش مصنوعی</string>
     <!-- Text while recognizing face -->
     <string name="face_unlock_recognizing">درحال شناسایی چهره...</string>
+    <!-- 5G toggle in Internet Dialog -->
+    <string name="enable_fiveg">Enable 5G</string>
 </resources>
